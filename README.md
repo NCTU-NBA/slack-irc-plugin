@@ -54,7 +54,7 @@ var config = {
   username: 'slackbot-username',
   token: 'XXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXXXXXX-XXXXXX',
   incomeUrl: 'https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/XXXXXXXXXXXXXXXXXXXXXXXX',
-  outcomeToken: 'XXXXXXXXXXXXXXXXXXXXXXXX',
+  outcomeToken: ['XXXXXXXXXXXXXXXXXXXXXXXX'],
 };
 
 // Channels map
