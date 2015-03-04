@@ -4,9 +4,10 @@ Synchronize messages between [Slack](http://slack.com) and [IRC](https://en.wiki
 ## Usage
 
 ```bash
-git clone https://github.com/fntsrlike/slack-irc-syncbot.git
-cd slack-irc-syncbot
-npm install
+$ git clone https://github.com/NCTU-NBA/slack-irc-plugin.git
+$ cd slack-irc-plugin
+$ npm install
+$ npm update
 ```
 
 Write your own configuration file (Refer `config.sample.js`) is a good starting point for building your own. The details can refer Configure part in below.
@@ -21,7 +22,7 @@ This will launch the bot in your terminal based on provided configuration.
 
 This project also support docker. you can clone the project and configure it. BTW, your config file should be named `config.js`.
 ```shell
-$ git clone https://github.com/fntsrlike/slack-irc-syncbot.git
+$ git clone https://github.com/NCTU-NBA/slack-irc-plugin.git
 $ cd slack-irc-syncbot
 $ cp config.sample.js config.js
 $ vim config.js
